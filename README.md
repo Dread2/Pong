@@ -10,7 +10,7 @@ modern graphics using Vulkan.
   - Cross Platform Development
 
 **Roadmap**
-  - 1.0: Environment Setup (NVIDIA Ampere, Driver Version: 550)
+  - 1.0: Environment Setup (NVIDIA Ampere, Driver Version: 550) ✔️
   - 1.1: Hardware Checks
   - 1.2: Window Creation and Intialization 
   - 1.3: Swapchain and Framebuffer setup
