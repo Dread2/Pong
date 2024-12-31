@@ -1,6 +1,8 @@
 #include <vulkan/vulkan.h>
 #include <stdexcept>
 #include <unordered_map>
+#include "VulkanInstance.h"
+#include "VulkanEnumeration.h"
 // As defined in Vulkan 1.0 API:
 // Provided by VK_VERSION_1_0
 // typedef struct VkInstanceCreateInfo {
@@ -74,8 +76,12 @@ void VulkanInstance() {
     auto it = errorCodes.find(result);
     if (it != errorCodes.end()) {
         throw std::runtime_error(it->second);
+        vkDestroyInstance(instance, nullptr);
     } else {
         throw std::runtime_error("Failed to create Vulkan instance");
+        vkDestroyInstance(instance, nullptr);
     }
     }
+    // Call enumeration function
+    VulkanEnumeration(instance);
 }
