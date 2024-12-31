@@ -21,6 +21,7 @@ modern graphics using Vulkan.
   - 1.8: Ray Tracing
 
 **Long Term Goals**
+  - Integration on both Wayland + X11
   - Ray Tracing
   - Microarchitectural Optimizations for AMD GPU's (Radeon Architecture)
   - Microarchitectural Optimizations for Intel x86_64 ISA
