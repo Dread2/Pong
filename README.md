@@ -19,6 +19,7 @@ modern graphics using Vulkan.
   - 1.6: Validation Layers
   - 1.7: Microarchitectural Optimizations for AMD64 + Ampere
   - 1.8: Ray Tracing
+  - 1.9: Introuce complex libariews om top of basic Vulkan
 
 **Long Term Goals**
   - Integration on both Wayland + X11
